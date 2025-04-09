@@ -41,10 +41,13 @@ body {
 }
 
 .container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/relax-sofa-furniture-pillows-decoration.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("images/relax-sofa-furniture-pillows-decoration.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 1200px;
+    width:2000px;
+   
 
 
 }
@@ -87,6 +90,7 @@ body {
 
     background-color: grey;
     color: white;
+    margin-left: -4%;
 
 }
 
@@ -454,13 +458,14 @@ body {
     }
 
     .rasi {
-        text-align: center;
+        /* text-align: center; */
         border: 1px solid rgb(95, 209, 95);
         border-color: green;
         background-color: green;
         width: 100%;
         color: white;
         font-size: 20px;
+        margin-left: -9%;
 
     }
 
@@ -487,10 +492,11 @@ body {
     }
 
     .container {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/relax-sofa-furniture-pillows-decoration.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/relax-sofa-furniture-pillows-decoration.jpg") ;
         background-repeat: no-repeat;
-        background-size: 100%;
-        height: 1200px;
+      
+        height: 600px;
+        width:500px;
 
 
     }
@@ -504,20 +510,22 @@ body {
     .about-rasi p {
         margin-top: 5%;
         color: white;
-        font-size: 30px;
+        
         font-family: poppins;
     }
 
     .elevate {
-        text-align: center;
+     
         color: white;
         font-family: poppins;
         margin-bottom: -7%;
+       
 
     }
 
     .elevate h1 {
         font-size: 30px;
+        margin-left: -20%;
 
 
     }
@@ -733,35 +741,40 @@ body {
     }
 
     .prints {
-        display: flex;
-        gap: 1px;
+      
+        
+        flex-direction: column;
+      
+       
+
 
 
     }
 
     #clothes {
-        width: 200px;
-        height: 200px;
+        width: 360px;
+        height: 290px;
         border-radius: 15px;
     }
 
     #beding {
-        width: 150px;
-        height: 200px;
+        width: 360px;
+        height: 280px;
         border-radius: 15px;
     }
 
     #girl {
-        width: 120px;
-        height: 160px;
+        width:360px;
+        height: 310px;
         border-radius: 15px;
     }
 
     .textile-products img {
 
-        border-radius: 40px;
-        width: 500px;
+        border-radius: 30px;
+        width: 420px;
         height: 300px;
+
 
     }
 
@@ -786,8 +799,9 @@ body {
         border-radius: 15px;
         margin-left: 7%;
         margin-top: 7%;
-        height:350px;
+        height:200px;
         background-color: white;
+        font-size: 9px;
 
 
 
@@ -805,14 +819,14 @@ body {
 
     .map h3 {
 
-        font-size: 30px;
+        font-size: 11px;
     }
 
     .broad-view img {
-        width: 800px;
+        width: 1000px;
         height: 300px;
         padding: 2% 4%;
-        border-radius: 100px;
+        border-radius: 90px;
 
     }
 
