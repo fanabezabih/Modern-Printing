@@ -1,0 +1,744 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.rasi {
+       text-align: center;
+       border: 1px solid rgb(95, 209, 95);
+       border-color: green;
+       background-color: green;
+       width: 100%;
+       color: white;
+       font-size: 20px;
+
+}
+.nav-bars{
+    text-align: center;
+    gap: 6%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+
+}
+.nav-bars a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bars i{
+    margin-right: -12%;
+}
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/relax-sofa-furniture-pillows-decoration.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1200px;
+
+ 
+}
+.about-rasi{
+    padding-left: 9%;
+    
+
+}
+.about-rasi p{
+    margin-top: 5%;
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+}
+.elevate{
+    text-align: center;
+    color: white;
+    font-family: poppins;
+   
+}
+.elevate h1{
+    font-size: 100px;
+    margin-top: 15%;
+
+}
+.elevate p{
+    font-size: 30px;
+    margin-top: -4%;
+}
+.elevate button{
+    width:250px;
+    height: 70px;
+    border-radius: 15px;
+    /* border-color: grey; */
+    background-color: grey;
+    color:white;
+    
+}
+.rasi-success{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-family: poppins;
+}
+.artistry{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    gap: 40px;
+    padding: 3% 5%;
+    font-family: poppins;
+
+
+}
+#fashion{
+    color: grey;
+
+}
+
+.artistry img{
+    width:700px;
+    height:600px;
+    margin-top: -9%;
+    
+}
+.screen-printing h1{
+      font-size: 50px;
+    
+}
+#know{
+    background-color: green;
+    color: white;
+}
+.screen-printing{ margin-top: -10%;}
+
+#rasi-printing{
+    color: green;
+}
+.screen-printing p{
+    font-size: 25px;
+   
+  
+}
+.screen-printing button{
+    width:200px;
+    height: 70px;
+    padding-left: 2%;
+    border-radius: 35px;
+    gap: 70px;
+}
+
+.our-quality{
+    display: flex;
+    gap:10px;
+    
+      padding: 3% 8%;
+      background-color: rgb(186, 241, 241);
+    }
+.assuring img{
+    width:100px;
+    
+}
+.assuring{
+    display: flex;
+}
+.techniques{
+   text-align: center;
+   font-family: poppins;
+}
+.techniques h2{
+    font-size: 45px;
+    
+}
+.progress{
+    display: flex;
+    padding: 3% 5%;
+    gap: 90px;
+    font-family: poppins;
+}
+.progress h2{
+    font-size: 30px;
+}
+.progress img{
+    width:500px;
+    height: 600px;
+    border-radius: 35px;
+}
+#arrow{
+    margin-left: 20%;
+    padding-left: 9%;
+    padding-top: 10%;
+    margin-top: 1% ;
+  
+    background-color: rgb(143, 143, 233);
+    font-size: 20px;
+    border-radius: 50%;
+    width: 60px;
+
+    padding-bottom: -100px;
+    
+   
+
+}
+.icon{
+    display: flex;
+}
+.clients{
+    text-align: center;
+}
+.clients h3{
+    font-size: 50px;
+}
+.garments{
+    display: flex;
+    padding: 3% -2%;
+    justify-content: center;
+    gap: 320px;
+    
+} 
+.industry{
+    display: flex;
+    
+}
+.industry img{
+     width:50px;
+     height: 50px;
+     margin-top: 25%;
+ }
+ .high-quality i{
+      color: green;
+ }
+ .high-quality h3{
+   
+    font-size: 30px;
+ }
+ .high-quality p{
+    font-size: 16px;
+ }
+ .about-quality{
+    display: flex;
+    padding: 3% 7%;
+    gap:70px;
+    font-family: poppins;
+ }
+ .about-quality img{
+    width:700px;
+    height: 400px;
+ }
+ .brands img{
+    width:130px;
+    height: 50px;
+    padding-left:  5.5%;
+    
+   
+
+   
+ }
+ .showcase{
+    text-align: center;
+    font-family: poppins;
+ }
+ .showcase h3{
+    font-size: 40px;
+ }
+ .prints{
+  
+    display: flex;
+    gap: 30px;
+    padding: 3% 4%;
+   
+ }
+ #clothes{
+    width:900px;
+    height: 500px;
+    border-radius: 35px;
+ }
+ #beding{
+    width:900px;
+    height: 500px;
+    border-radius: 35px;
+ }
+ #girl{
+    width:600px;
+    height: 500px;
+    border-radius: 35px;
+ }
+ .textile-products img{
+    padding: 3% 4%;
+    border-radius: 100px;
+    width:1700px;
+    height: 1200px;
+
+ }
+ .reachout{
+    text-align: center;
+    font-family: poppins
+ }
+ .reachout h3{
+    font-size: 50px;
+ }
+ .map{
+    padding-left: 2%;
+    position: absolute;
+    padding-right: 5%;
+    box-shadow: 10px 10px rgb(209, 206, 206);
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 7%;
+
+    background-color: white;
+ 
+    
+ }
+ .contact{
+    display: flex;
+    gap:10px;
+   
+   
+
+     
+ }
+ .contact i{
+        padding-top:9%;
+ }
+ .map h3{
+  
+    font-size: 30px;
+ }
+ .broad-view img{
+    width:1700px;
+    height: 800px;
+    padding: 2% 4%;
+    border-radius: 100px;
+
+ }
+ .address{
+    display: flex;
+    gap: 5px;
+ }
+ .address i{
+      padding-top: 19% ;
+ }
+ .call-us{
+    display: flex;
+    gap: 18px;
+ }
+ .our-excellence{
+    display: flex;
+    gap: 110px;
+    padding: 3% 8%;
+   
+    color: white;
+ }
+ .our-offers{
+    background-color: rgb(46, 44, 44);
+    font-family: ;
+ }
+ .copyright{
+    text-align: center;
+    color: white;
+    padding-bottom: 1%;
+      
+ }
+ .connect{
+    display: flex;
+    gap: 16px;
+ }
+ .phone-connect{
+    display: flex;
+    gap: 5px;
+ }
+ .phone-connect i {
+    padding-top: 19%
+ }
+ .email-connect{
+    display: flex;
+    gap:5px;
+ }
+ .email-connect i{
+    padding-top: 9%;
+ }
+ .copyright{
+    border-top: 1px solid white;
+    margin-top: 4%;
+ }
+
+
+
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    @font-face {
+        font-family: poppins;
+        src: url(Poppins-Regular.ttf);
+    }
+    body{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .rasi {
+           text-align: center;
+           border: 1px solid rgb(95, 209, 95);
+           border-color: green;
+           background-color: green;
+           width: 100%;
+           color: white;
+           font-size: 20px;
+    
+    }
+    .nav-bars{
+        text-align: center;
+        gap: -1%;
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        font-family: poppins;
+    
+    }
+    .nav-bars a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav-bars i{
+        margin-right: -12%;
+    }
+    .container{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/relax-sofa-furniture-pillows-decoration.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 1200px;
+    
+     
+    }
+    .about-rasi{
+        padding-left: 9%;
+        
+    
+    }
+    .about-rasi p{
+        margin-top: 5%;
+        color: white;
+        font-size: 30px;
+        font-family: poppins;
+    }
+    .elevate{
+        text-align: center;
+        color: white;
+        font-family: poppins;
+       
+    }
+    .elevate h1{
+        font-size: 30px;
+       
+    
+    }
+    .elevate p{
+        font-size: 15px;
+     
+    }
+    .elevate button{
+        width:250px;
+        height: 70px;
+        border-radius: 15px;
+      
+        background-color: grey;
+        color:white;
+        
+    }
+    .rasi-success{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        margin-top: 2%;
+        text-align: center;
+        font-size: 40px;
+        font-family: poppins;
+    }
+    .artistry{
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+        gap: 3px;
+        padding: 3% 5%;
+        font-family: poppins;
+    
+    
+    }
+    #fashion{
+        color: grey;
+    
+    }
+    
+    .artistry img{
+        width:200px;
+        height:200px;
+        margin-top: -9%;
+        
+    }
+    .screen-printing h1{
+          font-size: 20px;
+        
+    }
+    #know{
+        background-color: green;
+        color: white;
+    }
+    .screen-printing{ margin-top: -10%;
+    }
+    
+    #rasi-printing{
+        color: green;
+    }
+    .screen-printing p{
+        font-size: 10px;
+       
+      
+    }
+    .screen-printing button{
+        width:100px;
+        height: 30px;
+        padding-left: 2%;
+        border-radius: 35px;
+        gap: 70px;
+    }
+    
+    .our-quality{
+        display: flex;
+        gap:px;
+      
+          background-color: rgb(186, 241, 241);
+        }
+    .assuring img{
+        width:10px;
+        
+    }
+    .assuring{
+        display: flex;
+    }
+    .techniques{
+       text-align: center;
+       font-family: poppins;
+    }
+    .techniques h2{
+        font-size: 45px;
+        
+    }
+    .progress{
+        display: flex;
+        padding: 3% 5%;
+     
+        font-family: poppins;
+    }
+    .progress h2{
+        font-size: 10px;
+    }
+    .progress img{
+        width:50px;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .progress p{
+        font-size: 8px;
+    }
+    #arrow{
+        margin-left: 30%;
+        margin-top: 19% ;
+       
+        border-radius: 100px;
+        width: 80px;
+       
+    
+    }
+    .icon{
+        display: flex;
+    }
+    .clients{
+        text-align: center;
+    }
+    .clients h3{
+        font-size: 50px;
+    }
+    .garments{
+        display: flex;
+        padding: 3% -2%;
+        justify-content: center;
+        gap: 5px;
+        
+    } 
+    .industry{
+        display: flex;
+        
+    }
+    .industry img{
+         width:50px;
+         height: 50px;
+         margin-top: 25%;
+     }
+     .high-quality i{
+          color: green;
+     }
+     .high-quality h3{
+       
+        font-size: 20px;
+     }
+     .high-quality p{
+        font-size: 4px;
+     }
+     .about-quality{
+        display: flex;
+        padding: 5% 7%;
+        gap:7px;
+        font-family: poppins;
+     }
+     .about-quality img{
+        width:100px;
+        height: 80px;
+
+     }
+     .brands img{
+        width:30px;
+        height: 30px;
+        padding-left:  5.5%;
+        
+       
+    
+        
+     }
+     .showcase{
+        text-align: center;
+        font-family: poppins;
+     }
+     .showcase h3{
+        font-size: 40px;
+     }
+     .prints{
+        display: flex;
+        gap: 1px;
+     
+       
+     }
+     #clothes{
+        width:200px;
+        height: 200px;
+        border-radius: 15px;
+     }
+     #beding{
+        width:150px;
+        height: 200px;
+        border-radius: 15px;
+     }
+     #girl{
+        width:120px;
+        height: 160px;
+        border-radius: 15px;
+     }
+     .textile-products img{
+       
+        border-radius: 40px;
+        width:500px;
+        height: 300px;
+    
+     }
+     .reachout{
+        text-align: center;
+        font-family: poppins
+     }
+     .reachout h3{
+        font-size: 50px;
+     }
+     .map{
+      
+        position: absolute;
+    
+        background-color: white;
+     
+        
+     }
+     .contact{
+        display: flex;
+        gap:10px;
+    
+         
+     }
+     .contact i{
+         
+     }
+     .map h3{
+      
+        font-size: 30px;
+     }
+     .broad-view img{
+        width:1700px;
+        height: 800px;
+        padding: 2% 4%;
+        border-radius: 100px;
+    
+     }
+     .address{
+        display: flex;
+        gap: 5px;
+     }
+     .address i{
+          padding-top: 19% ;
+     }
+     .call-us{
+        display: flex;
+        gap: 18px;
+     }
+     .our-excellence{
+        display: flex;
+        gap: 110px;
+        padding: 3% 8%;
+       
+        color: white;
+     }
+     .our-offers{
+        background-color: rgb(46, 44, 44);
+        font-family: ;
+     }
+     .copyright{
+        text-align: center;
+        color: white;
+        padding-bottom: 1%;
+          
+     }
+     .connect{
+        display: flex;
+        gap: 16px;
+     }
+     .phone-connect{
+        display: flex;
+        gap: 5px;
+     }
+     .phone-connect i {
+        padding-top: 19%
+     }
+     .email-connect{
+        display: flex;
+        gap:5px;
+     }
+     .email-connect i{
+        padding-top: 9%;
+     }
+     .copyright{
+        border-top: 1px solid white;
+        margin-top: 4%;
+     }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
