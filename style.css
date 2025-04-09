@@ -203,15 +203,17 @@ body {
 }
 
 #arrow {
-    margin-left: 20%;
-    padding-left: 9%;
-    padding-top: 10%;
+    margin-left: 33%;
+    padding-left: 4%;
+    padding-top: 3%;
     margin-top: 1%;
 
-    background-color: rgb(143, 143, 233);
+    background-color: rgb(174, 174, 231);
     font-size: 20px;
     border-radius: 50%;
-    width: 60px;
+    width: 36px;
+    height: 31px;
+
 
     padding-bottom: -100px;
 
@@ -260,13 +262,14 @@ body {
 }
 
 .high-quality p {
-    font-size: 16px;
+    font-size: 20px;
+    color: grey;
 }
 
 .about-quality {
     display: flex;
     padding: 3% 5%;
-    gap: 140px;
+    gap: 100px;
     font-family: poppins;
 }
 
